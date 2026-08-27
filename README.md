@@ -36,6 +36,7 @@ Archivos:
 - [`salida-prompt-ptc.md`](./dia-01/salida-prompt-ptc.md) — el diagnóstico obtenido.
 - [`salida-prompt-corto.md`](./dia-01/salida-prompt-corto.md) — la respuesta al prompt vago, para comparar.
 - [`comparacion.md`](./dia-01/comparacion.md) — comparación lado a lado y aprendizajes.
+- [`mi_oferta.md`](./dia-01/mi_oferta.md) — documento maestro de oferta: la acción de 30 minutos que pidió el diagnóstico, convertida en hipótesis comercial v1.0 y en el eje de los Días 2 a 7.
 
 **Conclusión del día:** el contexto vago genera respuestas vagas. La diferencia entre las dos salidas no vino de un modelo distinto, sino de nueve palabras contra trescientas treinta.
 
