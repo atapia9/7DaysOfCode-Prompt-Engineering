@@ -12,7 +12,7 @@ Una técnica por día durante 7 días; cada desafío es una pieza del proyecto f
 | Día | Técnica | Estado |
 |---|---|---|
 | [1](./dia-01) | Estructura **PTC**: Papel · Tarea · Contexto | ✅ Completado |
-| 2 | — | ⏳ |
+| [2](./dia-02) | **Role Prompting**: persona en 4 capas (identidad · tono · método · límites) | ✅ Completado |
 | 3 | — | ⏳ |
 | 4 | — | ⏳ |
 | 5 | — | ⏳ |
@@ -39,6 +39,27 @@ Archivos:
 - [`mi_oferta.md`](./dia-01/mi_oferta.md) — documento maestro de oferta: la acción de 30 minutos que pidió el diagnóstico, convertida en hipótesis comercial v1.0 y en el eje de los Días 2 a 7.
 
 **Conclusión del día:** el contexto vago genera respuestas vagas. La diferencia entre las dos salidas no vino de un modelo distinto, sino de nueve palabras contra trescientas treinta.
+
+---
+
+## Día 2 — Role Prompting
+
+Un papel de una línea ("orientador de carrera") ya mejora la respuesta, pero deja todo lo demás en manos del modelo. Role Prompting describe a la persona en cuatro capas:
+
+- **Identidad y experiencia:** el repertorio del que la IA va a tirar.
+- **Tono de voz:** cómo llega el mensaje.
+- **Método:** cómo razona y en qué orden.
+- **Límites:** lo que NO hace. Es la capa que más cambia el resultado y la que casi nadie escribe.
+
+Archivos:
+
+- [`persona-mentora.md`](./dia-02/persona-mentora.md) — la persona de Renata Salas, activo reutilizable para los días 3 a 7.
+- [`prompt-role.md`](./dia-02/prompt-role.md) — el prompt completo del Día 2.
+- [`salida-plan-mentora.md`](./dia-02/salida-plan-mentora.md) — 3 hard skills priorizadas y 2 soft skills con acción de entrenamiento.
+- [`salida-persona-comprador.md`](./dia-02/salida-persona-comprador.md) — el mismo prompt visto por un comprador escéptico.
+- [`comparacion-personas.md`](./dia-02/comparacion-personas.md) — qué cambió al cambiar de persona y por qué.
+
+**Conclusión del día:** la persona no es decoración, es un sesgo elegido. La mentora ni siquiera mencionó la seguridad de la información; el comprador la puso en primer lugar.
 
 ---
 
