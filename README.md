@@ -42,4 +42,14 @@ Archivos:
 
 ---
 
+## Licencia
+
+Este repositorio está bajo [Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](./LICENSE).
+
+Puedes copiar, adaptar y reutilizar el contenido —incluido su uso como material de clase— siempre que des crédito. Atribución sugerida:
+
+> Jesús Armando Tapia Gallegos, *7 Days of Code — Prompt Engineering* (2026). https://github.com/atapia9/7DaysOfCode-Prompt-Engineering — CC BY 4.0
+
+---
+
 `#7DaysOfCode` `#PromptEngineering` `#AluraLatam`
