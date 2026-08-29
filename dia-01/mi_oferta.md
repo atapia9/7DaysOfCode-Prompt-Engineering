@@ -2,7 +2,7 @@
 ## Documento maestro de trabajo — Reformulación de oferta + proyecto #7DaysOfCode Prompt Engineering
 
 **Autor:** Jesús Armando Tapia Gallegos  
-**Versión:** 1.1  
+**Versión:** 1.2  
 **Fecha:** 2026-08-27  
 **Propósito:** convertir el aprendizaje del reto de prompting en una oferta comercial concreta, demostrable y vendible, y usarla como eje de los siguientes días del proyecto.
 
@@ -108,13 +108,27 @@ Esto permite trabajar con organizaciones que no necesitan únicamente aprender a
 
 La salida del Día 1 lo expresa de manera útil: la ventaja no está principalmente en las certificaciones de IA, sino en poder traducir entre el mundo corporativo y el mundo de la IA. [Fuente: `salida-prompt-ptc.md`]
 
+## 4.1 Componente diferenciador incorporado en la v1.2
+
+Imparto formación en ciberseguridad para personal de soporte. Hasta ahora eso vivía en mi historial docente y no en mi oferta.
+
+El ejercicio del Día 2 mostró por qué era un error. Al correr el mismo diagnóstico desde la persona de un comprador —un director de operaciones de PyME que ya contrató y despidió consultores de IA— la primera preocupación no fue el precio ni la herramienta: fue **qué pasa con la información de su empresa cuando la mete en una IA**. [Fuente: `../dia-02/salida-persona-comprador.md`]
+
+Por eso, desde la v1.2 la oferta incorpora un componente que pocos consultores de IA aplicada pueden sostener con evidencia:
+
+- política básica de uso de IA y manejo de información;
+- criterios explícitos de qué se puede y qué no se puede subir a una herramienta de IA;
+- la sesión que se lo explica al equipo en su propio lenguaje.
+
+No es un extra ni un anexo técnico: es lo que destraba la conversación de venta antes de hablar de casos de uso.
+
 ---
 
 # 5. Hipótesis de posicionamiento
 
 ## Posicionamiento provisional
 
-> **Consultor de IA aplicada para organizaciones que necesitan convertir la inteligencia artificial en productividad, procesos y capacidades concretas de sus equipos.**
+> **Consultor de IA aplicada para organizaciones que necesitan convertir la inteligencia artificial en productividad, procesos y capacidades concretas de sus equipos, con manejo responsable de su información.**
 
 ### Diferenciador
 
@@ -162,7 +176,7 @@ Especialmente organizaciones que:
 
 ### Promesa
 
-> **Ayudo a PyMEs y equipos profesionales a identificar oportunidades concretas para usar IA, capacitar a sus colaboradores y convertirlas en flujos de trabajo funcionales.**
+> **Ayudo a PyMEs y equipos profesionales a identificar oportunidades concretas para usar IA, capacitar a sus colaboradores y convertirlas en flujos de trabajo funcionales, sin exponer la información de su empresa.**
 
 ### Formato
 
@@ -329,7 +343,7 @@ La primera versión debe incluir **un precio explícito**, aunque sea experiment
 
 ### Precio v1.1 — experimental, ya definido
 
-> **Taller “IA Productiva para Equipos”: 6 horas, remoto, hasta 12 participantes. Incluye diagnóstico previo, biblioteca inicial de 20 prompts adaptados al negocio y roadmap de 30 días. Precio: $9,999 MXN.**
+> **Taller “IA Productiva para Equipos”: 6 horas, remoto, hasta 12 participantes. Incluye diagnóstico previo, política básica de uso y manejo de información, biblioteca inicial de 20 prompts adaptados al negocio y roadmap de 30 días. Precio: $9,999 MXN.**
 
 Este precio es una hipótesis de trabajo, no una tarifa validada. Su función es hacer la oferta comprable y provocar un “sí” o un “no, porque…” en las primeras conversaciones comerciales. Se ajusta con evidencia de mercado, no antes.
 
@@ -348,6 +362,10 @@ Este precio es una hipótesis de trabajo, no una tarifa validada. Su función es
 ## Versión premium
 
 > **Ayudo a organizaciones a convertir IA en capacidad operativa: identificamos oportunidades, capacitamos al equipo y construimos flujos de trabajo funcionales que pueden utilizar desde la primera semana.**
+
+## Versión v1.2 — con manejo de información
+
+> **Ayudo a PyMEs a usar inteligencia artificial en su operación diaria sin poner en riesgo la información de la empresa: identificamos dónde ahorra tiempo, capacitamos al equipo y dejamos por escrito qué se puede y qué no se puede hacer con sus datos.**
 
 Estas son hipótesis de posicionamiento, no claims comerciales ya validados.
 
@@ -725,7 +743,7 @@ Ambas respuestas son información valiosa.
 
 # 22. Estado del documento
 
-**Estado:** hipótesis de oferta v1.1 — precio experimental definido ($9,999 MXN)  
+**Estado:** hipótesis de oferta v1.2 — precio experimental definido ($9,999 MXN) + componente de manejo de información  
 **No validado comercialmente:** sí  
 **Objetivo inmediato:** convertir la hipótesis en una oferta experimental y someterla a validación.  
 **Documento de referencia:** `mi_oferta.md`  
