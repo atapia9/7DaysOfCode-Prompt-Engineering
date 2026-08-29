@@ -13,7 +13,7 @@ Una técnica por día durante 7 días; cada desafío es una pieza del proyecto f
 |---|---|---|
 | [1](./dia-01) | Estructura **PTC**: Papel · Tarea · Contexto | ✅ Completado |
 | [2](./dia-02) | **Role Prompting**: persona en 4 capas (identidad · tono · método · límites) | ✅ Completado |
-| 3 | — | ⏳ |
+| [3](./dia-03) | **Zero-shot y Few-shot**: enseñar el formato con ejemplos | ✅ Completado |
 | 4 | — | ⏳ |
 | 5 | — | ⏳ |
 | 6 | — | ⏳ |
@@ -60,6 +60,23 @@ Archivos:
 - [`comparacion-personas.md`](./dia-02/comparacion-personas.md) — qué cambió al cambiar de persona y por qué.
 
 **Conclusión del día:** la persona no es decoración, es un sesgo elegido. La mentora ni siquiera mencionó la seguridad de la información; el comprador la puso en primer lugar.
+
+---
+
+## Día 3 — Zero-shot y Few-shot
+
+Pedir una respuesta "organizada" deja que el modelo decida qué significa eso. **Zero-shot** es describir la tarea con palabras; **few-shot** es mostrar de 2 a 4 pares de entrada y salida para que la IA copie el patrón. Se usa cuando lo que importa es la consistencia: misma estructura, misma extensión, mismo nivel de detalle, siempre.
+
+Dos reglas: bastan de 2 a 4 ejemplos, y deben ser de **temas distintos al tuyo** — si son de tu mismo tema, la IA copia el contenido en vez del formato.
+
+Archivos:
+
+- [`formato-plan-semanal.md`](./dia-03/formato-plan-semanal.md) — la plantilla de nueve líneas y los dos ejemplos. Activo reutilizable para los días 4 a 7.
+- [`prompt-fewshot.md`](./dia-03/prompt-fewshot.md) — el prompt completo del Día 3.
+- [`salida-semana-01.md`](./dia-03/salida-semana-01.md) — mi Semana 1 sobre la prioridad 1 de hard skills del Día 2.
+- [`zeroshot-vs-fewshot.md`](./dia-03/zeroshot-vs-fewshot.md) — la misma petición sin ejemplos, y los tres defectos que aparecieron.
+
+**Conclusión del día:** un ejemplo vale más que una prohibición. La persona tenía escrito "no aceptas *investigar* como acción" y el zero-shot igual abrió con un día de comparar herramientas; los ejemplos, que simplemente no contienen días así, lo eliminaron sin decirlo.
 
 ---
 
