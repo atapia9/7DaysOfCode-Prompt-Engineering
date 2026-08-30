@@ -14,7 +14,7 @@ Una técnica por día durante 7 días; cada desafío es una pieza del proyecto f
 | [1](./dia-01) | Estructura **PTC**: Papel · Tarea · Contexto | ✅ Completado |
 | [2](./dia-02) | **Role Prompting**: persona en 4 capas (identidad · tono · método · límites) | ✅ Completado |
 | [3](./dia-03) | **Zero-shot y Few-shot**: enseñar el formato con ejemplos | ✅ Completado |
-| 4 | — | ⏳ |
+| [4](./dia-04) | **Chain of Thought**: razonamiento por pasos definidos | ✅ Completado |
 | 5 | — | ⏳ |
 | 6 | — | ⏳ |
 | 7 | Mega-Prompt: Tutor Personal de Carrera Tech | ⏳ |
@@ -77,6 +77,23 @@ Archivos:
 - [`zeroshot-vs-fewshot.md`](./dia-03/zeroshot-vs-fewshot.md) — la misma petición sin ejemplos, y los tres defectos que aparecieron.
 
 **Conclusión del día:** un ejemplo vale más que una prohibición. La persona tenía escrito "no aceptas *investigar* como acción" y el zero-shot igual abrió con un día de comparar herramientas; los ejemplos, que simplemente no contienen días así, lo eliminaron sin decirlo.
+
+---
+
+## Día 4 — Chain of Thought
+
+Ante una decisión con renuncia de por medio, la IA responde rápido, con seguridad y sin mostrar nada de su razonamiento. **Chain of Thought** es pedirle que exponga los pasos antes de concluir: descompone el problema, evalúa cada parte y solo entonces cierra una posición. Sirve para dos cosas: reduce conclusiones apresuradas, y deja una superficie que se puede auditar paso por paso.
+
+"Piensa paso a paso" funciona; definir **cuáles** son los pasos funciona mucho mejor, porque ahí eliges tú los criterios que entran en la decisión.
+
+Archivos:
+
+- [`secuencia-cot.md`](./dia-04/secuencia-cot.md) — mi secuencia de seis pasos y por qué cambié dos criterios del ejemplo. Activo reutilizable.
+- [`prompt-cot.md`](./dia-04/prompt-cot.md) — el prompt completo del Día 4.
+- [`salida-cot.md`](./dia-04/salida-cot.md) — los seis bloques de razonamiento sobre un dilema real del proyecto.
+- [`con-y-sin-cot.md`](./dia-04/con-y-sin-cot.md) — el mismo dilema sin pedir razonamiento, y qué escondía esa respuesta.
+
+**Conclusión del día:** el paso 4 —"qué información me falta"— es el que paga el ejercicio. Reveló que estaba a punto de reordenar mi plan con base en una objeción que ninguna persona real me ha dicho todavía.
 
 ---
 
