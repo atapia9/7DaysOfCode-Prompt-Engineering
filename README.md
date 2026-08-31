@@ -15,7 +15,7 @@ Una técnica por día durante 7 días; cada desafío es una pieza del proyecto f
 | [2](./dia-02) | **Role Prompting**: persona en 4 capas (identidad · tono · método · límites) | ✅ Completado |
 | [3](./dia-03) | **Zero-shot y Few-shot**: enseñar el formato con ejemplos | ✅ Completado |
 | [4](./dia-04) | **Chain of Thought**: razonamiento por pasos definidos | ✅ Completado |
-| 5 | — | ⏳ |
+| [5](./dia-05) | **Delimitadores y restricciones**: separar instrucciones de datos | ✅ Completado |
 | 6 | — | ⏳ |
 | 7 | Mega-Prompt: Tutor Personal de Carrera Tech | ⏳ |
 
@@ -94,6 +94,21 @@ Archivos:
 - [`con-y-sin-cot.md`](./dia-04/con-y-sin-cot.md) — el mismo dilema sin pedir razonamiento, y qué escondía esa respuesta.
 
 **Conclusión del día:** el paso 4 —"qué información me falta"— es el que paga el ejercicio. Reveló que estaba a punto de reordenar mi plan con base en una objeción que ninguna persona real me ha dicho todavía.
+
+---
+
+## Día 5 — Delimitadores y restricciones
+
+**Delimitadores** (comillas triples, `---`, etiquetas) marcan dónde terminan mis instrucciones y empiezan mis datos: lo que va dentro es material a procesar, no una orden a obedecer. **Restricciones** son las reglas del juego, en tres clases: de formato, de extensión y negativas. Las negativas son las que más tiempo ahorran.
+
+Archivos:
+
+- [`bloque-reglas.md`](./dia-05/bloque-reglas.md) — el bloque de reglas y la regla anti-inyección que agregué. Activo reutilizable.
+- [`prompt-extraccion.md`](./dia-05/prompt-extraccion.md) — el prompt completo del Día 5, sobre el temario real del curso "Git y GitHub" de REDEC-UNAM/FESC.
+- [`salida-cronograma.md`](./dia-05/salida-cronograma.md) — la tabla, y nada más.
+- [`sin-reglas-y-prueba-inyeccion.md`](./dia-05/sin-reglas-y-prueba-inyeccion.md) — la misma petición sin reglas negativas, y qué pasa cuando el texto pegado trae una orden escondida.
+
+**Conclusión del día:** delimitar no es prolijidad, es decidir qué parte del texto tiene permiso de darme órdenes. Y "no informado" también es información: cinco celdas vacías me revelaron que mi propio temario no declara entregables por sesión, mientras la rúbrica califica 40% por ellos.
 
 ---
 
