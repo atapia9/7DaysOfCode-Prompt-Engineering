@@ -16,7 +16,7 @@ Una técnica por día durante 7 días; cada desafío es una pieza del proyecto f
 | [3](./dia-03) | **Zero-shot y Few-shot**: enseñar el formato con ejemplos | ✅ Completado |
 | [4](./dia-04) | **Chain of Thought**: razonamiento por pasos definidos | ✅ Completado |
 | [5](./dia-05) | **Delimitadores y restricciones**: separar instrucciones de datos | ✅ Completado |
-| 6 | — | ⏳ |
+| [6](./dia-06) | **Inyección de contexto largo**: fuentes etiquetadas y trazabilidad | ✅ Completado |
 | 7 | Mega-Prompt: Tutor Personal de Carrera Tech | ⏳ |
 
 ---
@@ -109,6 +109,21 @@ Archivos:
 - [`sin-reglas-y-prueba-inyeccion.md`](./dia-05/sin-reglas-y-prueba-inyeccion.md) — la misma petición sin reglas negativas, y qué pasa cuando el texto pegado trae una orden escondida.
 
 **Conclusión del día:** delimitar no es prolijidad, es decidir qué parte del texto tiene permiso de darme órdenes. Y "no informado" también es información: cinco celdas vacías me revelaron que mi propio temario no declara entregables por sesión, mientras la rúbrica califica 40% por ellos.
+
+---
+
+## Día 6 — Inyección de contexto largo
+
+Los modelos aguantan textos extensos, pero su atención no es uniforme: lo que queda en medio de un bloque grande tiende a diluirse. Tres prácticas lo corrigen: **etiquetar cada fuente** en bloques con nombre, **poner la instrucción después de los datos** (y repetirla), y **exigir trazabilidad** — que cada conclusión cite el fragmento que la sostiene.
+
+Archivos:
+
+- [`vacante-objetivo.md`](./dia-06/vacante-objetivo.md) — la fuente: una vacante real de Change Consultant / AI Trainer, freelance y remota.
+- [`prompt-gaps.md`](./dia-06/prompt-gaps.md) — el prompt completo del Día 6, con tres bloques etiquetados.
+- [`reporte-gaps.md`](./dia-06/reporte-gaps.md) — el reporte: qué ya tengo, qué me bloquea y qué es bonus. Última pieza del Día 7.
+- [`aprendizajes-contexto-largo.md`](./dia-06/aprendizajes-contexto-largo.md) — los dos errores que aparecieron sin etiquetas y cómo se corrigieron.
+
+**Conclusión del día:** pedir la cita no mejora la redacción, cambia lo que la IA se atreve a afirmar. Sin etiquetas, un plan futuro del Día 2 apareció citado como capacidad presente; con las fuentes separadas por valor probatorio, ese error desapareció solo.
 
 ---
 
