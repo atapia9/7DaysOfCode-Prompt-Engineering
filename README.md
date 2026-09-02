@@ -139,6 +139,8 @@ Archivos:
 - [`pdi-30-dias.md`](./dia-07/pdi-30-dias.md) — la salida: mi Plan de Desarrollo Individual de 30 días, con cuatro semanas ejecutables y cada bloque ligado a un gap real.
 - [`notas-de-version.md`](./dia-07/notas-de-version.md) — qué bloque tocar cuando algo cambie, la bitácora de versiones, los siete aprendizajes del reto y lo que este tutor **no** hace.
 
+> 🔧 **El Tutor también vive como repositorio independiente**, con una plantilla en blanco para que cualquiera arme el suyo: [atapia9/tutor-carrera-tech](https://github.com/atapia9/tutor-carrera-tech).
+
 **Conclusión del día:** lo primero que hizo el Tutor fue avisarme que mi tiempo no alcanza para la vacante que elegí, antes de presentar el plan. Un tutor que solo dice que sí no es un tutor: es un generador de listas.
 
 ---
