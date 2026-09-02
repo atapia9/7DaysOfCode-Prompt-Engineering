@@ -17,7 +17,7 @@ Una técnica por día durante 7 días; cada desafío es una pieza del proyecto f
 | [4](./dia-04) | **Chain of Thought**: razonamiento por pasos definidos | ✅ Completado |
 | [5](./dia-05) | **Delimitadores y restricciones**: separar instrucciones de datos | ✅ Completado |
 | [6](./dia-06) | **Inyección de contexto largo**: fuentes etiquetadas y trazabilidad | ✅ Completado |
-| 7 | Mega-Prompt: Tutor Personal de Carrera Tech | ⏳ |
+| [7](./dia-07) | **Composición**: Mega-Prompt — Tutor Personal de Carrera Tech | ✅ Completado |
 
 ---
 
@@ -124,6 +124,28 @@ Archivos:
 - [`aprendizajes-contexto-largo.md`](./dia-06/aprendizajes-contexto-largo.md) — los dos errores que aparecieron sin etiquetas y cómo se corrigieron.
 
 **Conclusión del día:** pedir la cita no mejora la redacción, cambia lo que la IA se atreve a afirmar. Sin etiquetas, un plan futuro del Día 2 apareció citado como capacidad presente; con las fuentes separadas por valor probatorio, ese error desapareció solo.
+
+---
+
+## Día 7 — Composición: el Mega-Prompt
+
+Un mega-prompt es un prompt en capas, donde cada bloque cumple una función distinta y no pelea con los demás. El orden importa: **persona → contexto → base de conocimiento → razonamiento → patrón de salida → restricciones → tarea**. La tarea va al final para que sea lo último que el modelo lee.
+
+Las seis piezas de los días 1 a 6 se ensamblan aquí en una sola herramienta reutilizable. Cuando algo cambia, se actualiza un bloque, no todo el prompt.
+
+Archivos:
+
+- [`tutor-v1.md`](./dia-07/tutor-v1.md) — **el Mega-Prompt completo**, autocontenido y listo para copiar y pegar.
+- [`pdi-30-dias.md`](./dia-07/pdi-30-dias.md) — la salida: mi Plan de Desarrollo Individual de 30 días, con cuatro semanas ejecutables y cada bloque ligado a un gap real.
+- [`notas-de-version.md`](./dia-07/notas-de-version.md) — qué bloque tocar cuando algo cambie, la bitácora de versiones, los siete aprendizajes del reto y lo que este tutor **no** hace.
+
+**Conclusión del día:** lo primero que hizo el Tutor fue avisarme que mi tiempo no alcanza para la vacante que elegí, antes de presentar el plan. Un tutor que solo dice que sí no es un tutor: es un generador de listas.
+
+---
+
+## Cierre del reto
+
+Siete días, siete técnicas, y un repositorio que dejó de ser un ejercicio de estudio para volverse el proyecto: diagnóstico, oferta con precio, plan de estudio, política de datos y el primer caso público. Las técnicas se aprenden aplicándolas a algo que importa.
 
 ---
 
